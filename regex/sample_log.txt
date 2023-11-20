@@ -1,0 +1,137 @@
+Feb  2 00:05:47 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 00:19:15 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 00:30:05 Levons-MacBook-Air syslogd[119]: Configuration Notice:
+	ASL Module "com.apple.cdscheduler" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Feb  2 00:30:05 Levons-MacBook-Air syslogd[119]: Configuration Notice:
+	ASL Module "com.apple.install" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Feb  2 00:30:05 Levons-MacBook-Air syslogd[119]: Configuration Notice:
+	ASL Module "com.apple.authd" sharing output destination "/var/log/asl" with ASL Module "com.apple.asl".
+	Output parameters from ASL Module "com.apple.asl" override any specified in ASL Module "com.apple.authd".
+Feb  2 00:30:05 Levons-MacBook-Air syslogd[119]: Configuration Notice:
+	ASL Module "com.apple.authd" sharing output destination "/var/log/system.log" with ASL Module "com.apple.asl".
+	Output parameters from ASL Module "com.apple.asl" override any specified in ASL Module "com.apple.authd".
+Feb  2 00:30:05 Levons-MacBook-Air syslogd[119]: Configuration Notice:
+	ASL Module "com.apple.authd" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Feb  2 00:30:05 Levons-MacBook-Air syslogd[119]: Configuration Notice:
+	ASL Module "com.apple.eventmonitor" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Feb  2 00:30:05 Levons-MacBook-Air syslogd[119]: Configuration Notice:
+	ASL Module "com.apple.mail" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Feb  2 00:30:05 Levons-MacBook-Air syslogd[119]: Configuration Notice:
+	ASL Module "com.apple.performance" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Feb  2 00:30:05 Levons-MacBook-Air syslogd[119]: Configuration Notice:
+	ASL Module "com.apple.iokit.power" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Feb  2 00:30:05 Levons-MacBook-Air syslogd[119]: Configuration Notice:
+	ASL Module "com.apple.contacts.ContactsAutocomplete" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Feb  2 00:30:05 Levons-MacBook-Air syslogd[119]: Configuration Notice:
+	ASL Module "com.apple.mkb" sharing output destination "/private/var/log/keybagd.log" with ASL Module "com.apple.mkb.internal".
+	Output parameters from ASL Module "com.apple.mkb.internal" override any specified in ASL Module "com.apple.mkb".
+Feb  2 00:30:05 Levons-MacBook-Air syslogd[119]: Configuration Notice:
+	ASL Module "com.apple.mkb" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Feb  2 00:30:05 Levons-MacBook-Air syslogd[119]: Configuration Notice:
+	ASL Module "com.apple.MessageTracer" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Feb  2 00:31:38 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 00:46:29 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 00:57:54 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 01:08:48 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 01:18:48 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 01:29:22 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 01:49:34 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 02:09:22 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 02:35:52 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 02:46:53 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 03:06:16 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 03:22:48 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 03:32:50 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 03:43:09 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 03:53:17 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 04:06:51 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 04:21:51 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 04:36:53 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 04:53:37 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 05:10:01 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 05:29:19 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 05:40:17 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 06:00:49 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 06:17:35 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 06:35:33 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 06:46:23 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 06:59:18 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 07:14:45 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 07:30:26 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 07:45:28 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 08:00:55 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 08:16:41 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 08:32:51 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 08:47:32 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 09:01:40 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 09:17:48 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 09:35:52 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 09:46:20 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 09:56:32 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 10:07:41 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 10:19:19 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 10:29:57 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 10:41:32 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 11:03:39 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 11:14:00 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 11:24:40 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 11:39:40 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 11:51:43 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 12:02:18 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 12:15:53 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 12:35:36 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 12:49:38 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 12:59:53 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 13:10:43 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 13:24:40 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 13:35:31 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 13:50:30 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 14:00:32 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 14:24:40 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 14:37:56 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 14:50:25 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 15:06:48 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 15:24:40 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 15:36:27 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 15:54:40 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 16:04:43 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 16:16:53 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 16:29:26 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 16:39:27 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 16:49:35 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 17:00:53 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 17:14:32 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 17:24:40 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 17:36:32 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 17:53:33 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 18:03:39 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 18:13:51 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 18:24:40 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 18:36:47 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 18:52:28 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 19:04:21 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 19:15:56 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 19:30:36 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 19:40:43 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 19:50:45 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 19:55:06 Levons-MacBook-Air awdd[255]: Diagnostics Report
+Feb  2 19:55:36 --- last message repeated 1 time ---
+Feb  2 20:00:51 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 20:11:54 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 20:21:54 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 20:31:54 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 20:41:54 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 20:53:40 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 21:03:40 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 21:14:39 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics
+Feb  2 21:24:39 Levons-MacBook-Air syslogd[119]: ASL Sender Statistics

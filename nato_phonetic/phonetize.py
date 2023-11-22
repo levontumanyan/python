@@ -31,7 +31,6 @@ try:
 	while True:
 		user_input = input("Enter the word that you want to be phonetized ( or quit to exit the program ): ")
 
-		
 		if (user_input.lower() == 'quit'):
 			print("Exiting the game, goodbye!")
 			break
@@ -39,6 +38,7 @@ try:
 		print(user_input + "=", end="")
 		print(phonetized(user_input))
 		pass
+
 except KeyboardInterrupt:
 	print("\nProgram interrupted by user. Exiting gracefully.")	
 	# Additional cleanup or actions can be performed here if needed

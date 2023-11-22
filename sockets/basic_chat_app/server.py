@@ -32,6 +32,7 @@ server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_socket.bind(('0.0.0.0', 56232))
 server_socket.listen(10)
 
+# signal handler function
 def signal_handler(sig, frame):
     print("\nClosing the server...")
     server_socket.close()

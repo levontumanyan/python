@@ -58,6 +58,9 @@ The chat application will facilitate real-time communication between multiple cl
 
 ## 5. Future Enhancements
 
+- a welcome message to the guy that has entered the chat. + let him know how many are in the chat
+- add a mechanism for the user to quit the chat gracefully instead of control-c, but also add signal trapping for both client/server
+- when a user connects with a username broadcast to all users ( soandso has entered the chat... ), and the same with leaving
 - Support for user authentication.
 - Encryption of messages for improved security.
 - Graphical user interface (GUI) for a more user-friendly experience.

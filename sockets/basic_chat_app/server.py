@@ -3,40 +3,60 @@ import threading
 import signal
 import sys
 
+PORT = 56232
+
 def handle_client(client_socket):
 
-	username = client_socket.recv(1024).decode('utf-8')
-
-	while True:	
-	
-		data = client_socket.recv(1024).decode('utf-8')
-
-		if not data:
-			break
+	# todo: client_socket.send("Welcome to the chat my boy".encode('utf-8'))
+	try:
+		client_socket.send("Welcome to the chat my boy".encode('utf-8'))
+		username = client_socket.recv(1024).decode('utf-8')
+		broadcast(('{} has entered the chat...There are {} users in the chat'.format(username, len(clients))), client_socket)
 		
-		broadcast(('{}: {} '.format(username, data)), client_socket)
-	client_socket.close()
+		while True:
+		
+			data = client_socket.recv(1024).decode('utf-8')
 
-def broadcast(message, sender_client):
+			if not data:
+				break
+			
+			broadcast(('{}: {} '.format(username, data)), client_socket)
+	except Exception as e:
+		print(f"Error handling client: {e}")
+	finally:
+		client_socket.close()
+
+def broadcast(message, client_to_send):
 	for client in clients:
 		try:
-			if (client != sender_client):
-				#message = '{0}: {1}'.format(client.getsockname(), message)
+			if (client != client_to_send):
 				client.send(message.encode('utf-8'))
 		except:
 			clients.remove(client)
 
 # configure the server
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-#server_socket.bind((socket.gethostname(), 56232))
-server_socket.bind(('0.0.0.0', 56232))
+server_socket.bind(('0.0.0.0', PORT))
 server_socket.listen(10)
 
 # signal handler function
 def signal_handler(sig, frame):
-    print("\nClosing the server...")
-    server_socket.close()
-    sys.exit(0)
+	# disconnect clients
+	
+	# for client in clients:
+	# 	broadcast(("Terminating the session from the server side..."), client)
+	# 	client.close()
+
+	for client in clients:
+		try:
+			client.send('exit'.encode('utf-8'))
+			client.close()
+		except:
+			pass  # Handle exceptions as needed
+
+	print("\nClosing the server...")
+	server_socket.close()
+	sys.exit(0)
 
 # Set up signal handler for Ctrl+C
 signal.signal(signal.SIGINT, signal_handler)

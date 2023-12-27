@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Run Unit Tests",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test_binary_tree.py",
+            "console": "integratedTerminal",
+            "args": ["-v", "test_module.TestClass.test_method"],
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}:${env:PYTHONPATH}"
+            }
+        }
+    ]
+}

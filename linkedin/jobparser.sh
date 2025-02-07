@@ -4,7 +4,8 @@
 set -e
 
 search_term=$1
-results_wanted=${2:-30}
+location=${2:-"Canada"}
+results_wanted=${3:-30}
 
 # Check if search_term is empty
 if [ -z "$search_term" ]; then
@@ -14,7 +15,7 @@ if [ -z "$search_term" ]; then
 fi
 
 # first run the jobparser command
-python3 -m jobsparser --search-term "$search_term" --location "Canada" --site linkedin --results-wanted $results_wanted --hours-old 24 --no-fetch-description --sleep-time 10
+python3 -m jobsparser --search-term "$search_term" --location $location --site linkedin --results-wanted $results_wanted --hours-old 24 --no-fetch-description --sleep-time 10
 
 # take the file produced
 output_file=$(ls -t ./data/*.csv | head -1)
